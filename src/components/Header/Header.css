@@ -1,0 +1,42 @@
+
+
+.app__header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  object-fit: contain;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+  z-index: 1;
+}
+
+.app__header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__header_logo {
+  object-fit: contain;
+}
+
+.app__header_list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.app__header_list li {
+  position: relative;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+@media only screen and (max-width: 470px) {
+  
+  /* .app__header_list {
+  } */
+
+}
